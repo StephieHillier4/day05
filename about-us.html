@@ -44,21 +44,34 @@
 			<h2>Our Resume</h2>
 			<p>You can <a href="media/resume.pdf">download our resume</a> to learn more.</p>
 
-			<form action="#" method="post"></form>
-			<h2>Apply Now</h2>
-			<fieldset>
-				<legend>
-					<span class="number">1</span>
-					Your Basic Info
-				</legend>
-			</fieldset>
+			<form action="#" method="post">
+				<h2>Apply Now</h2>
+				<fieldset>
+					<legend>
+						<span class="number">1</span>
+						Your Basic Info
+					</legend>
+					<label for="name">Name</label>
+					<input type="text" id="name" name="user-name">
 
-			<fieldset>
-				<legend>
-					<span class="numbr">2</span>
-					Work Details
-				</legend>
-			</fieldset>
+					<label for="mail">Email:</label>
+					<input type="email" name="user-email" id="mail">
+
+					<label for="password">Password</label>
+					<input type="password" name="user-password" id="password">
+
+					<label for="bio">Biography</label>
+					<textarea name="user-bio" id="bio"></textarea>
+				</fieldset>
+				
+				<fieldset>
+					<legend>
+						<span class="numbr">2</span>
+						Work Details
+					</legend>
+				</fieldset>
+			</form>
+			
 </body>
 
 </html>
